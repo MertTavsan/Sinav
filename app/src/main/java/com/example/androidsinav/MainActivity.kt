@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         /*super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)*/
-        for(i in 0..101){
+        for(i in 1..100){
             sayiList.add((0..100).random())
 
         }
